@@ -1,0 +1,25 @@
+* Begriffe
+** Monoidal
+*** Premonoidal
+** Cartesian
+*** Cartesian Effect
+** Closed
+** Category
+*** Premonoidal Category
+**** Traced Premonoidal Category
+*** Cartesian Category
+**** Cartesian Effect Category
+*** Freyd Category
+**** Closed Freyd Category
+*** K Category
+** Kategorien Theorie
+*** Was versteht man darunter
+**** Theorie der Mathematik der Strukturen
+**** Vergleich zw. Mengenlehre und Kategorien Theorie
+*** K Calculus
+*** de Bruijn notation
+*** Only Structure matters
+**** http://reperiendi.wordpress.com/2007/09/19/the-problem-of-evil-and-cartesian-categories/
+		 For a category theorist, making a distinction between one-element sets is
+		 evil. Instead of looking inside an object to see how it’s made, we should
+		 only care about how it interacts with the world around it. 

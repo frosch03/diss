@@ -1,0 +1,49 @@
+* Einführung
+** Motivation
+** Problembeschreibung
+** bestehende Lösungen
+*** Lava
+*** ForSyDe
+*** Cryptol
+*** Hydra
+*** reFLect
+*** SAFL
+*** HDRE
+*** myHDL
+*** HML
+*** muFP
+** Domänen abgrenzung
+*** Seiteneffektfreiheit
+**** Algorithmen
+*** CodeGenerierung vs. HighLevel Synthese
+*** Kryptographie
+**** MD5
+**** MD6 (?)
+**** AES (?)
+**** TEA
+** Ansatz
+*** Theoretisch
+**** Kategorientheorie
+***** Denotationelle Semantik
+***** Spiele Theorie
+***** Semantik
+***** Cartesian Closed Categories
+***** Cartesian Effect Categories
+**** Funktionale Funktionen vs. Hardware Bausteine
+***** zu Speziell
+***** abstrahieren
+**** Activity Charts (UML)
+***** Verknüpfungsoperatoren
+*** Praktisch
+**** Implementierung
+** Resultate
+*** Arrows
+** Nutzen
+*** Vorteile
+*** Anwendungen
+**** MD5
+**** TEA
+**** CPU
+*** Probleme
+**** verbesserungsmöglichkeiten
+**** ansätze für weitere Forschung
