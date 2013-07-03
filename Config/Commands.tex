@@ -1,0 +1,44 @@
+\newcommand{\grafik}[4][0.9]{       % Bild einfügen, [Skalierung], {Dateiname ohne Endung}, {Beschriftung}, {label zum Referenzieren}
+    \begin{figure}[ht]          % before: htbp 
+        \begin{center}
+            \includegraphics[width=#1\columnwidth]{Images/#2}
+            \caption{\label{#4} #3}
+            
+        \end{center}
+    \end{figure}
+}
+
+\newcommand{\xfig}[4][0.9] {      %xfig figure einfügen, [Skalierung], {Dateiname ohne Endung}, {Beschriftung}, {label}
+    \begin{figure}[ht]
+        \begin{center}
+            \graphicspath{{./}{Images/}}
+            \scalebox{#1}{
+                \input{Images/#2}
+            }
+            \caption{\label{#4} #3}
+        \end{center}
+    \end{figure}
+}
+
+
+\newcommand{\reFLect}{\textit{re\kern-0.07em F\kern-0.07emL\kern-0.29em\raisebox{0.56ex}{ect}}}
+
+\newcommand{\boxit}[1]{\mbox{{\it #1}}}
+
+\newcommand{\hs}[1]{\mbox{\lstinline[basicstyle=\color{textgray}]!#1!}}
+
+\newcommand{\funct}[1]{``#1''}
+
+\newcommand{\begriff}[1]{{\it ``#1''}}
+\newcommand{\source}[1]{\mbox{\tt{#1}}}
+\newcommand{\hsSource}[1]{\mbox{\tt{#1}}}
+\newcommand{\hsSourceLine}[1]{$$\mbox{\tt{#1}}$$}
+\newcommand{\zahl}[1]{\mbox{$#1$}}
+
+
+
+
+
+\newtheorem{theo}{Theorem}
+\newtheorem{lem}{Lemma}[section]
+\newtheorem{rem}{Remark}
