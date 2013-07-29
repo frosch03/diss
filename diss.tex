@@ -23,13 +23,33 @@
 
 
 \begin{document}
-\selectlanguage{german}
+\selectlanguage{ngerman}
 \title{Funktionale Hardwareentwicklung}
 \maketitle
 
+\include{Chapters/Introduction} 
+
+
+\section{Introduction}
+
+With the rise of hardware description languages, like VHDL, Verilog or SystemC, the development process of hardware gets more and
+more like the one for software systems. It is not surprising that there are various approaches to bring software development
+concepts into the hardware development process. The way hardware is developed is highly influenced by the imperative paradigm, as
+the mentioned HDLs are imperative languages.
+
+Our research interest lies inside functional programming paradigm, and it lies also within the design an the creation of domain
+specific languages that describe hardware. We have chosen haskell over all other functional languages for multiple reasons. 1:
+there is a massive community around haskell, that no other functional language can compete with; 2: with the hindley-milner type
+system, haskell comes with one of the most elaborate type systems out there; and 3: when it comes to purity, a language either is 
+pure, or it isn't. Haskell is pure.
 
 
 
 \bibliographystyle{plain}
 \bibliography{Bibliography}
 \end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
