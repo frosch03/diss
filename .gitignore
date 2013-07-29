@@ -3,3 +3,10 @@
 *.log
 *.pdf
 TextSnippets/*
+*.dvi
+*.blg
+*.bbl
+.predictive/*
+\#*\#
+
+/auto/diss.el
